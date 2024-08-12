@@ -17,7 +17,7 @@ app.get("/api/test",(req,res)=>{
     })
 })
 
-let arr=["https://agnee-enterprise.onrender.com/api/test","https://testing-server-loader.onrender.com/api/test"]
+let arr=["https://agnee-enterprise.onrender.com/api/test","https://testing-server-loader.onrender.com/api/test","https://agnee-staging.onrender.com/api/test"]
 
 const getApi=async()=>{
         arr.forEach(async (link)=>{
